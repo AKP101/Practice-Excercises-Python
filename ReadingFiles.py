@@ -1,0 +1,5 @@
+readMe = open("exampleFile.txt", "r").readlines()
+print(readMe)
+print()
+readMe = open("exampleFile.txt", "r").read()
+print(readMe)
